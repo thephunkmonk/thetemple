@@ -1,9 +1,19 @@
 #!/bin/bash
 
-FILE=~/tmp/_SUDDEN
+FILE=~/tmp/thetemple/_SUDDEN
 
 while true
 do
-echo "check"
+
+if [ -e FILE ]; then
+echo "SUDDEN!!"
 sleep 3
+else
+echo "not sudden ..."
+    sleep 3     
+fi
 done
+
+#echo "check"
+#sleep 3
+#done
