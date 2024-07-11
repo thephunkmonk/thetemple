@@ -10,7 +10,7 @@ if [[ -f "$FILE" ]]; then
 #   echo "check $FILE"
    echo "$DATE,SUDDEN !!"
 else
-   figlet Date@8
+   figlet NOT SUDDEN
    echo $DATE
 #   DATE=$(date "+%Y%m%d %H:%M:%S") 
 fi
