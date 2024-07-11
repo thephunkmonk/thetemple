@@ -1,15 +1,14 @@
 #!/bin/bash
 
-figlet SUDDEN ATTACK
-
 FILE=~/class_code/tmp/thetemple/_SUDDEN
-DATE=$(date "+%Y%m%d %H:%M:%S")
+#DATE=$(date "+%Y%m%d %H:%M:%S")
 
 while true
 do
 
 if [[ -f "$FILE" ]]; then
    echo "check $FILE"
+   echo $DATE, "SUDDEN !!"
 else
    figlet Date@8
    echo $DATE
