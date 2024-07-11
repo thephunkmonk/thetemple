@@ -3,6 +3,7 @@
 figlet SUDDEN ATTACK
 
 FILE=~/class_code/tmp/thetemple/_SUDDEN
+DATE=$(date "+%Y%m%d %H:%M:%S")
 
 while true
 do
@@ -10,8 +11,9 @@ do
 if [[ -f "$FILE" ]]; then
    echo "check $FILE"
 else
-   clear
-   date
+   figlet Date@8
+   echo $DATE
+   DATE=$(date "+%Y%m%d %H:%M:%S") 
 fi
 sleep 3
 
