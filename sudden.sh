@@ -1,5 +1,7 @@
 #!/bin/bash
 
+figlet SUDDEN ATTACK
+
 FILE=~/class_code/tmp/thetemple/_SUDDEN
 
 while true
